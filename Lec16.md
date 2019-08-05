@@ -52,8 +52,6 @@ types: <class 'torch.Tensor'> <class 'torch.Tensor'>
 shapes: torch.Size([10, 1, 28, 28]) torch.Size([10])
 ```
 
-
-
 #### *Plot a batch of images*
 
 `torchvision.utils.make_grid()`

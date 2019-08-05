@@ -112,8 +112,6 @@ torch.Size([1, 12])
 
   - **end_dim**([*int*](https://docs.python.org/3/library/functions.html#int "(in Python v3.7)) – the last dim to flatten
 
-
-
 #### *Concatenating tensors*
 
 **Combine tensors** using `cat()` function, and the resulting tensor will have a shape that depends on the shape of the two input tensors.

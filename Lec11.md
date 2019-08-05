@@ -1,12 +1,8 @@
 ## CNN Flatten Operation Visualized - Tensor Batch Processing for Deep Learning
 
-
-
 Input tp a convolutional neural network typically have 4 axes:
 
 - (Batch Size, Channels, Height, Width)
-
-
 
 #### *Building a tensor representation for a batch of images*
 
@@ -42,8 +38,6 @@ torch.Size([3, 4, 4])
 
 We used the `stack()` function to concatenate our sequence of three tensors along a new axis.
 
-
-
 #### `torch.stack()`
 
 `torch.stack(*seq*,*dim=0*,*out=None*)→ Tensor`
@@ -57,8 +51,6 @@ We used the `stack()` function to concatenate our sequence of three tensors alon
   - **dim**([*int*](https://docs.python.org/3/library/functions.html#int "(in Python v3.7)")) – dimension to insert. Has to be between 0 and the number of dimensions of concatenated tensors (inclusive)
 
   - **out**([*Tensor*](https://pytorch.org/docs/stable/tensors.html#torch.Tensor "torch.Tensor")*,**optional*) – the output tensor
-
-
 
 #### Flattening specific axes of a tensor
 
@@ -78,5 +70,3 @@ tensor(
 ]
 )
 ```
-
-

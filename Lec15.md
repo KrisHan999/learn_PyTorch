@@ -109,5 +109,3 @@ grid = torchvision.utils.make_grid(images, nrow=10)
 plt.figure(figsize=(15,15))
 plt.imshow(np.transpose(grid, (1,2,0)))
 ```
-
-

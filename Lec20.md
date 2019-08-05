@@ -16,5 +16,3 @@ What makes this possible is that PyTorch module classes implement another specia
 #### *Instead of calling forawrd(), call the object instance directly!*
 
 Instead of calling the `forward()` method directly, we call the object instance, after the object instance is called, the `__call__()` method is invoked under the hood, and the `__call__()` in turn invokes the `forward()` method.
-
-

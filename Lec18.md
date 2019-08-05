@@ -35,5 +35,3 @@ We'll **parameters** are used in function definitions as **place-holders** while
 1. Hyperparameters
 
 2. Data dependent hyperparameters
-
-

@@ -12,13 +12,9 @@
 ], dtype=torch.float32)
 ```
 
-
-
 ### Broadcasting
 
 Broadcasting is the concept whose implementation allows us to add scalars to higher dimesional tensors.
-
-
 
 ### Arithmetic operations are element-wise operations
 
@@ -62,8 +58,6 @@ Broadcasting is the concept whose implementation allows us to add scalars to hig
           [1.5000, 2.0000]])
   ```
 
-
-
 ### Comparison operations are element-wise
 
 ```python
@@ -101,8 +95,6 @@ tensor([[1, 1, 1],
         [1, 0, 1]], dtype=torch.uint8)
 ```
 
-
-
 ### ELement-wise operations using functions
 
 ```python
@@ -127,25 +119,3 @@ tensor([[0., 5., 0.],
         [6., 0., 7.],
         [0., 8., 0.]])
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
